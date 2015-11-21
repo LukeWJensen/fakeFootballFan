@@ -11,7 +11,7 @@ app.service('teamsService', function($http){
 			url: url,
 			withCredentials: true,
 			headers: {
-				'Ocp-Apim-Subscription-Key': 'c383f77169cf47d0b034cf187fe11bb1'
+				'Ocp-Apim-Subscription-Key': 'key goes here'
 			}
 		}).then(function(data){
 			var myData = data;
